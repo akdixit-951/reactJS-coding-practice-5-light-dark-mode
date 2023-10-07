@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark-mode {
+  background-color: #000000;
+  border-radius: 8px;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+}
+
+.button {
+  height: 38px;
+  width: 100px;
+  border-radius: 5px;
+  font-weight: 700;
+}
